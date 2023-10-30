@@ -5,7 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/main menu.unity
+    guid: e01f9ed8116e2f1438eb894d1acf913a
+  - enabled: 1
+    path: Assets/Scenes/play menu.unity
+    guid: 96e3e74de46eeaf41af95e63bc43ca0f
+  - enabled: 1
+    path: Assets/Scenes/ai pong game.unity
+    guid: dd57fa25bc1c3b64eb793d0b7af519d3
+  - enabled: 1
+    path: Assets/Scenes/2 player pong.unity
+    guid: cce003b8569834747a316bed35f6e61d
+  - enabled: 1
+    path: Assets/Scenes/impossible mode.unity
+    guid: 4373d76300b1ae44fb7fb4c74d5cb3a7
   m_configObjects: {}

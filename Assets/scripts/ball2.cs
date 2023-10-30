@@ -2,12 +2,12 @@ using System;
 using TMPro;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class NewBehaviour : MonoBehaviour
 {
     public float Xposition = 0f;
     public float Yposition = 0f;
-    public float Xspeed = 1f;
-    public float Yspeed = 1f;
+    public float Xspeed = 25f;
+    public float Yspeed = 25f;
     public TMP_Text scoreField;
     private int leftScore = 0;
     private int rightScore = 0;
@@ -17,18 +17,18 @@ public class NewBehaviourScript : MonoBehaviour
     {
         Xposition = 0f;
         Yposition = 0f;
-        Xspeed = 1f;
-        Yspeed = 1f;
+        Xspeed = 25f;
+        Yspeed = 25f;
         scoreField.text = leftScore + "  - " + rightScore;
         if (leftOrRight == "left")
         {
-            Xspeed = 5f;
-            Yspeed = 5f;
+            Xspeed = 25f;
+            Yspeed = 25;
         }
         else if (leftOrRight == "right")
         {
-            Xspeed = -5f;
-            Yspeed = -5f;
+            Xspeed = -25;
+            Yspeed = -25;
         }
     }
 
@@ -37,8 +37,8 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Xspeed = 5f;
-        Yspeed = 5f;
+        Xspeed = 25;
+        Yspeed = 25;
         scoreField.text = "0 - 0";
     }
 
