@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/impossible mode.unity
     guid: 4373d76300b1ae44fb7fb4c74d5cb3a7
+  - enabled: 1
+    path: Assets/Scenes/breakout.unity
+    guid: 6ab5cb7a16571b24d819f3644862b9a6
   m_configObjects: {}
